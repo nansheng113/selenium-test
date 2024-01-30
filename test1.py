@@ -104,7 +104,7 @@ def get_sells(Ch_code,input_time):
 
                 # 与目标时间相同的信息记录
                 if showtime==inputtime:
-                    item["sell"]=infos[-3].text
+                    item["sell"]=infos[-4].text
                     item["time"]=infos[-1].text
                     currency.append(item)
                 # 目标时间大于显示时间则终止记录
